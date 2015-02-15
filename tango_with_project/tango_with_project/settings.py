@@ -90,4 +90,9 @@ TEMPLATE_DIRS = [
     # Don't forget to use absolute paths, not relative paths.
     TEMPLATE_PATH,
 ]
+STATIC_PATH = os.path.join(BASE_DIR,'static')
+
+STATICFILES_DIRS = (
+    STATIC_PATH,
+)
 
